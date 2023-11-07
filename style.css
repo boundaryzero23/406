@@ -79,6 +79,10 @@ body {font-family: 'Gamja Flower', sans-serif; background-color: #d3c9c1;}
 #stampArea a:nth-child(17).active {background-image: url('img/stamp_17_on.png');}
 #stampArea a:nth-child(18) {background-image: url('img/stamp_18.png');}
 #stampArea a:nth-child(18).active {background-image: url('img/stamp_18_on.png');}
+#stampArea a:nth-child(19) {background-image: url('img/stamp_19.png');}
+#stampArea a:nth-child(19).active {background-image: url('img/stamp_19_on.png');}
+#stampArea a:nth-child(20) {background-image: url('img/stamp_20.png');}
+#stampArea a:nth-child(20).active {background-image: url('img/stamp_20_on.png');}
 
 #letterArea {width: 556px; height: 740px; background: url('img/letter.png') 50% 0% no-repeat; position: relative;}
 #letterArea .inner {width: 434px; height: 220px; position: absolute; top: 164px; left: 70px; overflow-y: auto; padding-right: 10px;}
