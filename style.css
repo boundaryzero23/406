@@ -1,0 +1,86 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Gamja+Flower&display=swap');
+
+* {margin: 0; padding: 0; box-sizing: border-box;
+  scrollbar-width: thin;
+  scrollbar-color: #D3C9C1 #FFF1E1;
+}
+
+/* Chrome, Edge and Safari */
+*::-webkit-scrollbar {
+  height: 8px;
+  width: 8px;
+}
+*::-webkit-scrollbar-track {
+  border-radius: 0px;
+  background-color: #FFF1E1;
+}
+
+*::-webkit-scrollbar-track:hover {
+  background-color: #FFF1E1;
+}
+
+*::-webkit-scrollbar-track:active {
+  background-color: #FFF1E1;
+}
+
+*::-webkit-scrollbar-thumb {
+  border-radius: 5px;
+  background-color: #D3C9C1;
+}
+
+*::-webkit-scrollbar-thumb:hover {
+  background-color: #D3C9C1;
+}
+
+*::-webkit-scrollbar-thumb:active {
+  background-color: #d3c9c1;
+}
+
+body {font-family: 'Gamja Flower', sans-serif; background-color: #d3c9c1;}
+.wrap {display: flex; align-items: center; height: 100vh;}
+.container {max-width: 1200px; width: 100%; margin: 0 auto; display: flex; justify-content: space-between; align-items: center;}
+
+#stampArea {width: 560px; height: 440px; display: flex; flex-wrap: wrap; gap: 10px;}
+#stampArea a {display: block; width: 104px; height: 104px; text-indent: -9999px; background-position: 50%; background-repeat: no-repeat;}
+#stampArea a:first-child {background-image: url('img/stamp_1.png');}
+#stampArea a:first-child.active {background-image: url('img/stamp_1_on.png');}
+#stampArea a:nth-child(2) {background-image: url('img/stamp_2.png');}
+#stampArea a:nth-child(2).active {background-image: url('img/stamp_2_on.png');}
+#stampArea a:nth-child(3) {background-image: url('img/stamp_3.png');}
+#stampArea a:nth-child(3).active {background-image: url('img/stamp_3_on.png');}
+#stampArea a:nth-child(4) {background-image: url('img/stamp_4.png');}
+#stampArea a:nth-child(4).active  {background-image: url('img/stamp_4_on.png');}
+#stampArea a:nth-child(5) {background-image: url('img/stamp_5.png');}
+#stampArea a:nth-child(5).active {background-image: url('img/stamp_5_on.png');}
+#stampArea a:nth-child(6) {background-image: url('img/stamp_6.png');}
+#stampArea a:nth-child(6).active {background-image: url('img/stamp_6_on.png');}
+#stampArea a:nth-child(7) {background-image: url('img/stamp_7.png');}
+#stampArea a:nth-child(7).active {background-image: url('img/stamp_7_on.png');}
+#stampArea a:nth-child(8) {background-image: url('img/stamp_8.png');}
+#stampArea a:nth-child(8).active {background-image: url('img/stamp_8_on.png');}
+#stampArea a:nth-child(9) {background-image: url('img/stamp_9.png');}
+#stampArea a:nth-child(9).active {background-image: url('img/stamp_9_on.png');}
+#stampArea a:nth-child(10) {background-image: url('img/stamp_10.png');}
+#stampArea a:nth-child(10).active {background-image: url('img/stamp_10_on.png');}
+#stampArea a:nth-child(11) {background-image: url('img/stamp_11.png');}
+#stampArea a:nth-child(11).active  {background-image: url('img/stamp_11_on.png');}
+#stampArea a:nth-child(12) {background-image: url('img/stamp_12.png');}
+#stampArea a:nth-child(12).active {background-image: url('img/stamp_12_on.png');}
+#stampArea a:nth-child(13) {background-image: url('img/stamp_13.png');}
+#stampArea a:nth-child(13).active {background-image: url('img/stamp_13_on.png');}
+#stampArea a:nth-child(14) {background-image: url('img/stamp_14.png');}
+#stampArea a:nth-child(14).active {background-image: url('img/stamp_14_on.png');}
+#stampArea a:nth-child(15) {background-image: url('img/stamp_15.png');}
+#stampArea a:nth-child(15).active {background-image: url('img/stamp_15_on.png');}
+#stampArea a:nth-child(16) {background-image: url('img/stamp_16.png');}
+#stampArea a:nth-child(16).active {background-image: url('img/stamp_16_on.png');}
+#stampArea a:nth-child(17) {background-image: url('img/stamp_17.png');}
+#stampArea a:nth-child(17).active {background-image: url('img/stamp_17_on.png');}
+#stampArea a:nth-child(18) {background-image: url('img/stamp_18.png');}
+#stampArea a:nth-child(18).active {background-image: url('img/stamp_18_on.png');}
+
+#letterArea {width: 556px; height: 740px; background: url('img/letter.png') 50% 0% no-repeat; position: relative;}
+#letterArea .inner {width: 434px; height: 220px; position: absolute; top: 164px; left: 70px; overflow-y: auto; padding-right: 10px;}
+#letterArea p {font-size: 17px; line-height: 1.5;}
+#letterArea p:last-of-type {text-align: right; padding-top: 10px;}
