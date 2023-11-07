@@ -7,7 +7,6 @@ $(function(){
     $(this).addClass('active');
     letterCont.hide();
     const tabTarget = $(this).attr('href');
-    console.log(tabTarget)
      $(tabTarget).show();
   });
   Btns.eq(0).trigger('click');
